@@ -33,7 +33,7 @@ Connection conn = DBHelper.getConnection();
 		//디버깅 코드
 		System.out.println(m);
 	}
-	//db자원 반납
+		//db자원 반납
 	conn.close();
 	return list;
 	}
